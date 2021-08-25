@@ -1,0 +1,7 @@
+---
+applications:
+- name: pomonode
+  random-route: true
+  path: ./pomonode
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  memory: 128M
